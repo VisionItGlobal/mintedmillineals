@@ -1,0 +1,167 @@
+ /*roadmap styles*/ 
+ .roadmap{
+    
+  font-family:arial;
+padding-top: 0px;
+
+    
+}
+.roadmap1{
+  background: #98dae9;
+  padding-bottom: 30px;
+}
+
+  .roadmap .banner-card{
+    position:relative;
+    margin-top:80px;
+    
+  }
+  .roadmap .banner-card img{
+    height:auto; padding: 0px;
+    margin-left: 250px;
+    margin-right: auto;
+   padding-bottom: 60px;
+   padding-top: 100px;
+  }
+ .roadmap .banner-text{
+   position: absolute;
+   top:40px;
+   
+   padding:10px;}
+  .roadmap .waviy {
+      position: relative;
+      margin-left: 455PX;
+      
+    }
+    .roadmap .waviy span {
+      position: relative;
+      display: inline-block;
+      font-size: 70px;
+      color: whitesmoke;
+      letter-spacing: 3vh;
+      font-weight: 2000px; 
+   margin-top:29px;
+      text-transform: uppercase;
+      animation: flip 2s infinite;
+      background:#22505ed1;
+      animation-delay: calc(.2s * var(--i))
+      
+      }
+       
+    @keyframes flip {
+      0%,80% {
+        transform: rotateY(360deg) 
+      }
+    }
+
+
+.roadmap .main{
+  
+ margin: 0%;
+  width: 1490px;
+ margin-top:-1%;
+ height:2500px;
+ 
+ margin-right:5%
+ }
+ .roadmap .phase-title h2 {
+  color: #333;
+  font-family: serief;
+  font-size: 39px;
+  font-weight: 100;
+  line-height: 1.36;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 450px;
+  
+}
+
+.roadmap .phase-title h2 span {
+  font-size: 50px;
+  margin-left: 40px;
+ 
+ 
+}
+
+.roadmap .message {
+  background-color:#135255;
+  color: rgb(241, 234, 234);
+  display: block;
+  font-weight: 100;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 0.2rem;
+  left: 64px;
+  animation: openclose 3s ease-in-out infinite;
+}
+
+.roadmap .word1  {
+  font-family:serief;
+  
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+ 
+  15% {
+    width: 130px;
+  }
+}
+.roadmap .card{
+      width:20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 4px; 
+      margin: 5%;
+      color:black;
+      background-color:white;
+      justify-content: space-around;
+      
+    flex-wrap: wrap;
+       
+     }
+     .roadmap .card:hover{
+      box-shadow: 0 4px 20px 0 #135255;
+      cursor: pointer;}
+     
+     .roadmap .image img{
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; 
+      
+      }
+      .roadmap .image img:hover{
+        -ms-transform: scale(1.0); 
+        -webkit-transform: scale(1.0);
+        transform: scale(0.9, 0.9);
+      }  
+      image img:hover{
+        transform:  scale(1.2);transform: translate(-2%,-2%);}
+     
+     .roadmap .card-title{
+       text-align: center;
+       padding: 10px;
+       font-size:20px
+      }
+      .roadmap .des{
+        padding: 3px;
+        text-align: center;
+       padding-top: 10px;
+       border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+    
+      
+        
+    

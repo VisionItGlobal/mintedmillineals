@@ -1,0 +1,43 @@
+.sticky-social{
+    position:fixed;
+    top:280px;
+    right:-0px;
+    padding:0px;
+    margin:0px;
+  }
+  .social{
+    list-style:none;
+  }
+  .social li{
+    padding:10px 10px;
+    font-size:25px;
+    transition:all 0.8s ease-in-out;
+  }
+  .social li:hover{
+      margin-right:-30px;
+   box-shadow:2px 5px 10px grey;
+  }
+  .social li:hover .fa{
+      margin-left:20px;
+    
+  }
+  .fa{
+    color:#fff;
+    transition:all 0.8s ease-in-out;
+  }
+  .fb{
+    background-color:#3C5A98;
+  }
+  
+  .insta{
+      background-color:#c03131;
+  }
+  .twitter{
+    background-color:#3ab2cf;
+}
+  .pin{
+      background-color:#9e418a;
+  }
+  .vim{
+      background-color:#59BFBE;
+  }
